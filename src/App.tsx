@@ -9,7 +9,7 @@ function App() {
   <div className="card bg-light shadow">
     <div className="card-header text-center">
       <h1 className="fw-semibold display-1 text-danger">Bhopal</h1>
-      <p className="temperature fs-4 fw-bold">60°F</p>
+      <p className="temperature fs-4 fw-bold">34°C</p>
       <p className="condition text-secondary">Cloudy</p>
     </div>
     <div className="card-body">
@@ -20,7 +20,7 @@ function App() {
         </div>
         <div className="text-center">
           <p className="fw-bold mb-1">Wind Speed</p>
-          <p className="badge bg-info text-white">7 mph</p>
+          <p className="badge bg-info text-white">11 km/h</p>
         </div>
       </div>
       <div className="forecast mt-4">
@@ -29,12 +29,12 @@ function App() {
           <div className="forecast-day card p-3 text-center border-secondary">
             <p className="fw-bold">Monday</p>
             <p className="text-warning">Cloudy</p>
-            <p className="badge bg-danger text-white">12°F</p>
+            <p className="badge bg-danger text-white">4°C</p>
           </div>
           <div className="forecast-day card p-3 text-center border-secondary">
             <p className="fw-bold">Monday</p>
             <p className="text-warning">Cloudy</p>
-            <p className="badge bg-danger text-white">12°F</p>
+            <p className="badge bg-danger text-white">6°C</p>
           </div>
         </div>
       </div>
