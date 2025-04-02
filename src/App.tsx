@@ -4,6 +4,7 @@ import "./App.css";
 function App() {
   const API_KEY = "bd5e378503939ddaee76f12ad7a97608";
   interface WeatherData {
+    
     main: {
       temp: number;
       humidity: number;
@@ -58,7 +59,7 @@ function App() {
             <p className="text-red-600 font-semibold">{error}</p>
           ) : weatherData ? (
             <>
-              <p className="text-2xl font-semibold text-gray-800">{weatherData.main.temp}°C</p>
+              <p className="text-2xl font-semibold text-gray-800">{Math.round(weatherData.main.temp)}°C</p>
               <p className="text-lg text-gray-600">{weatherData.weather[0].description}</p>
             </>
           ) : (
