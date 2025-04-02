@@ -111,13 +111,13 @@ function App() {
           <div className="text-center">
             <p className="font-semibold text-white/80 mb-2">Humidity</p>
             <span className="bg-white/20 text-white px-5 py-2 rounded-full font-medium">
-              {weatherData ? `${weatherData.main.humidity}%` : "--"}
+              {weatherData ? `${Math.round(weatherData.main.humidity)}%` : "--"}
             </span>
           </div>
           <div className="text-center">
             <p className="font-semibold text-white/80 mb-2">Wind Speed</p>
             <span className="bg-white/20 text-white px-5 py-2 rounded-full font-medium">
-              {weatherData ? `${weatherData.wind.speed} km/h` : "--"}
+              {weatherData ? `${Math.round(weatherData.wind.speed)} km/h` : "--"}
             </span>
           </div>
         </div>
